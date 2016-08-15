@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Filmweb</title>
+    <title>Bookweb</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -39,7 +39,8 @@
     </nav>
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
-
+      <div class="container">
     <%= yield %>
+  </div>
   </body>
 </html>
